@@ -23,8 +23,8 @@ public class SudokuGameService
     {
         try
         {
-            var puzzle = _puzzleProvider.GetPuzzle();
-            var solution = _solver.Solve(puzzle);
+            int[,] puzzle = _puzzleProvider.GetPuzzle();
+            int[,] solution = _solver.Solve(puzzle);
             _solutionHandler.HandleSolution(solution);
         }
         catch (NoSolutionException)
