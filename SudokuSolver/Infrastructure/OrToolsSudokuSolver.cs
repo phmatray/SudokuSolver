@@ -10,8 +10,8 @@ public class OrToolsSudokuSolver : ISudokuSolver
     
     public int[,] Solve(int[,] puzzle)
     {
-        var (model, grid) = CreateModel(puzzle);
-        var status = _solver.Solve(model);
+        (CpModel model, var grid) = CreateModel(puzzle);
+        CpSolverStatus status = _solver.Solve(model);
         
         if (status is CpSolverStatus.Feasible or CpSolverStatus.Optimal)
         {

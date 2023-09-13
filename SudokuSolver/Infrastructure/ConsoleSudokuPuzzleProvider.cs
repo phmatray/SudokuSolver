@@ -7,7 +7,7 @@ public class ConsoleSudokuPuzzleProvider : ISudokuPuzzleProvider
     public int[,] GetPuzzle()
     {
         // We will hardcode a 9x9 Sudoku for simplicity.
-        var puzzle = new[,]
+        int[,] puzzle =
         {
             { 0, 0, 6, 5, 1, 0, 0, 0, 8 },
             { 7, 0, 3, 8, 0, 0, 6, 9, 1 },
