@@ -12,7 +12,7 @@ public static class DependencyInjections
     public static ServiceProvider ConfigureAndBuildServices(ILogger logger)
     {
         logger.LogInformation("Configuring and building services...");
-        var serviceProvider = new ServiceCollection()
+        ServiceProvider serviceProvider = new ServiceCollection()
             .AddRequiredServices()
             .BuildServiceProvider();
         logger.LogInformation("Services have been configured and built.");
@@ -22,7 +22,7 @@ public static class DependencyInjections
     public static SudokuGameService RetrieveGameService(this ServiceProvider serviceProvider, ILogger logger)
     {
         logger.LogInformation("Retrieving game service...");
-        var gameService = serviceProvider
+        SudokuGameService gameService = serviceProvider
             .CreateScope()
             .ServiceProvider
             .GetRequiredService<SudokuGameService>();

@@ -4,8 +4,8 @@ using SudokuSolver.CLI;
 Console.WriteLine("Sudoku Solver");
 Console.WriteLine("=============");
 
-var loggerFactory = LoggerFactory.Create(builder => builder.AddConsole());
-var logger = loggerFactory.CreateLogger<Program>();
+ILoggerFactory loggerFactory = LoggerFactory.Create(builder => builder.AddConsole());
+ILogger<Program> logger = loggerFactory.CreateLogger<Program>();
 
 DependencyInjections
     .ConfigureAndBuildServices(logger)
