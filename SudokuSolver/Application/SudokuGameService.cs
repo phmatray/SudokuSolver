@@ -3,29 +3,18 @@ using SudokuSolver.Ports;
 
 namespace SudokuSolver.Application;
 
-public class SudokuGameService
+public class SudokuGameService(
+    ISudokuSolver solver,
+    ISudokuPuzzleProvider puzzleProvider,
+    ISudokuSolutionHandler solutionHandler)
 {
-    private readonly ISudokuSolver _solver;
-    private readonly ISudokuPuzzleProvider _puzzleProvider;
-    private readonly ISudokuSolutionHandler _solutionHandler;
-
-    public SudokuGameService(
-        ISudokuSolver solver,
-        ISudokuPuzzleProvider puzzleProvider,
-        ISudokuSolutionHandler solutionHandler)
-    {
-        _solver = solver;
-        _puzzleProvider = puzzleProvider;
-        _solutionHandler = solutionHandler;
-    }
-
     public void RunGame()
     {
         try
         {
-            int[,] puzzle = _puzzleProvider.GetPuzzle();
-            int[,] solution = _solver.Solve(puzzle);
-            _solutionHandler.HandleSolution(solution);
+            int[,] puzzle = puzzleProvider.GetPuzzle();
+            int[,] solution = solver.Solve(puzzle);
+            solutionHandler.HandleSolution(solution);
         }
         catch (NoSolutionException)
         {

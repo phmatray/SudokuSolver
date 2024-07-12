@@ -1,11 +1,11 @@
-﻿# Sudoku Solver
+﻿# 🧩 Sudoku Solver
 A Sudoku puzzle solver based on Hexagonal Architecture and written in C#. The application uses Google's OR-Tools for the solution process.
 
-## Getting Started
+## 🚀 Getting Started
 ### Prerequisites
 The project is built in C#, so you need:
 
-* .NET Core or .NET 6+ SDK
+* .NET 8+ SDK
 The project uses Google OR-Tools library for solving Sudoku puzzles. To install it, run:
 
 ```csharp
@@ -20,7 +20,7 @@ You will see the solution printed to the console.
 dotnet run
 ```
 
-## How It Works
+## 🧠 How It Works
 The project uses the Constraint Programming (CP) model, which is a powerful tool to solve combinatorial problems - in this case, Sudoku.
 
 We represent the Sudoku board as a 2D array of integer variables. Each of these variables can hold an integer between 1 and 9.
@@ -36,17 +36,17 @@ The Google OR-Tools CP solver will try to find a solution that satisfies all the
 
 If a solution is found, it is printed to the console. If no solution is found, the program prints a message stating that no solution was found.
 
-## Features
+## 🌟 Features
 * Ability to solve any standard 9x9 Sudoku puzzle.
 * Uses Google OR-Tools for solving the puzzles, ensuring an efficient solution.
 * Clean and maintainable codebase following Hexagonal Architecture.
 
-## Future Improvements
+## 📈 Future Improvements
 * Adding more interfaces to interact with the application (like a GUI, Web API, etc.)
 * Extending the application to support different sizes of Sudoku puzzles.
 
-## Contributing
+## 🤝 Contributing
 Contributions are always welcome. Please feel free to open an issue or submit a pull request with your changes or improvements.
 
-## License
+## 📜 License
 This project is open-source and available under the MIT License.
