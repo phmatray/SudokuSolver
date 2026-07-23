@@ -75,6 +75,16 @@ If a solution is found, it is printed to the console. If no solution is found, t
 
 <!-- portfolio-techstack:end -->
 
+## 🗺️ Roadmap
+
+- [ ] Add a test project covering the Hexagonal Architecture boundaries and the OR-Tools constraint model
+- [ ] Publish the solver as a reusable NuGet package
+- [ ] Add a puzzle generator (only solving is currently supported)
+- [ ] Support reading puzzles from files (CSV/JSON) instead of the console-based provider
+- [ ] Add CI-driven benchmarks to track solve time across puzzle difficulties
+
+See the [open issues](https://github.com/phmatray/SudokuSolver/issues) for what's currently planned.
+
 ## 🤝 Contributing
 Contributions are always welcome. Please feel free to open an issue or submit a pull request with your changes or improvements.
 
