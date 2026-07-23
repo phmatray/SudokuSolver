@@ -1,6 +1,21 @@
 ![SudokuSolver banner](.github/banner.png)
 
 ﻿# 🧩 Sudoku Solver
+
+<!-- portfolio-badges:start -->
+<!-- Identity -->
+[![phmatray - SudokuSolver](https://img.shields.io/static/v1?label=phmatray&message=SudokuSolver&color=blue&logo=github)](https://github.com/phmatray/SudokuSolver)
+![Top language](https://img.shields.io/github/languages/top/phmatray/SudokuSolver)
+[![Stars](https://img.shields.io/github/stars/phmatray/SudokuSolver?style=social)](https://github.com/phmatray/SudokuSolver/stargazers)
+[![Forks](https://img.shields.io/github/forks/phmatray/SudokuSolver?style=social)](https://github.com/phmatray/SudokuSolver/network/members)
+[![License](https://img.shields.io/github/license/phmatray/SudokuSolver)](https://github.com/phmatray/SudokuSolver/blob/HEAD/LICENSE)
+
+<!-- Activity -->
+[![Issues](https://img.shields.io/github/issues/phmatray/SudokuSolver)](https://github.com/phmatray/SudokuSolver/issues)
+[![Pull requests](https://img.shields.io/github/issues-pr/phmatray/SudokuSolver)](https://github.com/phmatray/SudokuSolver/pulls)
+[![Last commit](https://img.shields.io/github/last-commit/phmatray/SudokuSolver)](https://github.com/phmatray/SudokuSolver/commits)
+<!-- portfolio-badges:end -->
+
 A Sudoku puzzle solver based on Hexagonal Architecture and written in C#. The application uses Google's OR-Tools for the solution process.
 
 ## 🚀 Getting Started
