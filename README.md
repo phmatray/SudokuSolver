@@ -16,6 +16,22 @@
 [![Last commit](https://img.shields.io/github/last-commit/phmatray/SudokuSolver)](https://github.com/phmatray/SudokuSolver/commits)
 <!-- portfolio-badges:end -->
 
+<!-- portfolio-toc:start -->
+
+## Table of Contents
+
+- [🚀 Getting Started](#-getting-started)
+- [🧠 How It Works](#-how-it-works)
+- [🌟 Features](#-features)
+- [📈 Future Improvements](#-future-improvements)
+- [Tech Stack](#tech-stack)
+- [🗺️ Roadmap](#-roadmap)
+- [🤝 Contributing](#-contributing)
+- [📜 License](#-license)
+
+<!-- portfolio-toc:end -->
+
+
 A Sudoku puzzle solver based on Hexagonal Architecture and written in C#. The application uses Google's OR-Tools for the solution process.
 
 ## 🚀 Getting Started
