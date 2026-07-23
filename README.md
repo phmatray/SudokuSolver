@@ -62,6 +62,19 @@ If a solution is found, it is printed to the console. If no solution is found, t
 * Adding more interfaces to interact with the application (like a GUI, Web API, etc.)
 * Extending the application to support different sizes of Sudoku puzzles.
 
+<!-- portfolio-techstack:start -->
+
+## Tech Stack
+
+- **C#**
+- Microsoft.Extensions.DependencyInjection.Abstractions
+- Microsoft.Extensions.Logging
+- Microsoft.Extensions.Logging.Console
+- Google.OrTools
+- Microsoft.Extensions.DependencyInjection
+
+<!-- portfolio-techstack:end -->
+
 ## 🤝 Contributing
 Contributions are always welcome. Please feel free to open an issue or submit a pull request with your changes or improvements.
 
