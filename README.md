@@ -1,3 +1,5 @@
+![SudokuSolver banner](.github/banner.png)
+
 ﻿# 🧩 Sudoku Solver
 A Sudoku puzzle solver based on Hexagonal Architecture and written in C#. The application uses Google's OR-Tools for the solution process.
 
