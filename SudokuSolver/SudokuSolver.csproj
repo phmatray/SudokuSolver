@@ -2,7 +2,7 @@
 
   <ItemGroup>
     <PackageReference Include="Google.OrTools" Version="9.15.6755" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.6" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.10" />
   </ItemGroup>
 
 </Project>
